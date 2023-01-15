@@ -1,11 +1,11 @@
 import React from "react";
 import Comment from "./Comment";
 
-function CommentList(){
+function CommentList({video}){
    return (
       <div>
          <h2>Comments</h2>
-         <Comment/>
+         <Comment comments={video.comments}/>
       </div>
    )
 }

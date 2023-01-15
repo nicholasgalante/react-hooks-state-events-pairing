@@ -18,8 +18,8 @@ function App() {
           title="Thinking in React"
         />
       </div>
-      <Description/>
-      <CommentList/>
+      <Description video={video}/>
+      <CommentList video={video}/>
     </>
   );
 }
