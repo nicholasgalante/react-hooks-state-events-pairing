@@ -4,8 +4,6 @@ import Description from "./Description";
 import CommentList from "./CommentList"
 
 function App() {
-  console.log("Here's your data:", video);
-
   return (
     <>
       <div className="App">
